@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+psycopg2-binary = "*"
+aiogram = "*"
+pytest = "*"
+pytest-asyncio = "*"
+psycopg = {extras = ["binary"], version = "*"}
+
+[dev-packages]
+pre-commit = "*"
+babel = "*"
+
+[requires]
+python_version = "3.11"
