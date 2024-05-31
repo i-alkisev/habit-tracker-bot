@@ -167,3 +167,6 @@ db/db_secrets/*
 
 # Script for setup credentials into environment variables
 set_credentials.sh
+
+# Doit data
+.doit.db.*
