@@ -12,7 +12,7 @@ services:
       - ./init_scripts:/docker-entrypoint-initdb.d
       - test_habits_db-data:/var/lib/postgresql/data
     ports:
-      - "5432:5432"
+      - "5050:5432"
 
 volumes:
   test_habits_db-data:

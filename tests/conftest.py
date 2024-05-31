@@ -81,4 +81,4 @@ def setup_credentials(request):
     os.environ["DB_USER"] = "test_pguser"
     os.environ["DB_PASS"] = "test_password"
     os.environ["DB_HOST"] = "0.0.0.0"
-    os.environ["DB_PORT"] = "5432"
+    os.environ["DB_PORT"] = "5050"

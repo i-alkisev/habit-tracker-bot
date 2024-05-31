@@ -11,6 +11,7 @@ pytest-asyncio = "*"
 psycopg = {extras = ["binary"], version = "*"}
 sphinx = "*"
 sphinx-rtd-theme = "*"
+doit = "*"
 
 [dev-packages]
 pre-commit = "*"
